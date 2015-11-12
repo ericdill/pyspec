@@ -56,7 +56,7 @@ for f in setup_files:
         break
 
 if setupfile is not None:
-    print 'Reading config file %s' % setupfile
+    print('Reading config file %s' % setupfile)
     config = ConfigParser.SafeConfigParser()
     config.read(setupfile)
 
